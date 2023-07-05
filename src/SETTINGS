@@ -1,4 +1,4 @@
-export CUARZO_WORKSPACE=/home/eduardo/cuarzo
+export CUARZO_WORKSPACE=/tmp/cuarzo
 export CUARZO_VERSION=0.1.0
 export CUARZO_ARCH=amd64
 export CUARZO_DEBIAN_CODENAME=bookworm
