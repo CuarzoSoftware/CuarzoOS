@@ -1,0 +1,21 @@
+screen_x = Window.GetX();
+screen_y = Window.GetY();
+screen_w = Window.GetWidth();
+screen_h = Window.GetHeight();
+img_size = screen_h/10;
+
+img = Image("Cuarzo@128.png");
+
+pos_x = screen_w/2 - img.GetWidth()/2;
+pos_y = screen_h/2 - img.GetHeight()/2;
+
+sprite = Sprite(img);
+sprite.SetX(pos_x);
+sprite.SetY(pos_y);
+
+fun refresh_callback () {
+  sprite.SetOpacity(1);
+  sprite.SetZ(15);
+}
+
+Plymouth.SetRefreshFunction (refresh_callback);

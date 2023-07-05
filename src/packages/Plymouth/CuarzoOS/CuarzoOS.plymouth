@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=CuarzoOS
+Description=...
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/CuarzoOS
+ScriptFile=/usr/share/plymouth/themes/CuarzoOS/CuarzoOS.script
